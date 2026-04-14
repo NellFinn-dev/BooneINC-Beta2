@@ -1,0 +1,639 @@
+.desktop {
+  background-color: #eafcff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.desktop .erm-actually-cat {
+  position: absolute;
+  top: 851px;
+  left: 190px;
+  width: 291px;
+  height: 173px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .back-flat-color {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  width: 68px;
+  height: 72px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .frame {
+  display: flex;
+  width: 1410px;
+  height: 573px;
+  align-items: center;
+  gap: 11px;
+  padding: 32px 0px;
+  position: absolute;
+  top: 256px;
+  left: 15px;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+.desktop .group {
+  width: 171.38px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  position: relative;
+  height: 592px;
+  margin-top: -41.5px;
+  margin-bottom: -41.5px;
+  box-shadow: -8px 8px 0px #0000001a;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 169px;
+  height: 592px;
+  background-color: #ffe5ca;
+  border-radius: 15px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 42px;
+  left: 31px;
+  width: 108px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #9e434382;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div {
+  width: 316.62px;
+  background-color: #ffe5ca;
+  border-radius: 15px;
+  position: relative;
+  height: 592px;
+  margin-top: -41.5px;
+  margin-bottom: -41.5px;
+  box-shadow: -8px 8px 0px #0000001a;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  top: 154px;
+  left: 1px;
+  width: 316px;
+  height: 210px;
+  background-color: #ff37373d;
+}
+
+.desktop .calander-event {
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  width: 282px;
+  height: 127px;
+}
+
+.desktop .img {
+  left: 1px;
+  width: 279px;
+  height: 127px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group {
+  left: 1px;
+  width: 280px;
+  height: 127px;
+  gap: 1387.7px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-3 {
+  width: 7.16px;
+  height: 127.22px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-4 {
+  margin-top: -499px;
+  width: 279.89px;
+  height: 127.22px;
+}
+
+.desktop .class-AM-to {
+  top: 11px;
+  left: 26px;
+  width: 238px;
+  position: absolute;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f8893;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-2 {
+  position: absolute;
+  top: 158px;
+  left: 17px;
+  width: 282px;
+  height: 202px;
+}
+
+.desktop .rectangle-5 {
+  left: 0;
+  width: 280px;
+  height: 202px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group-2 {
+  left: 1px;
+  width: 280px;
+  height: 202px;
+  gap: 1387.7px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-6 {
+  margin-top: 0;
+  width: 7.16px;
+  height: 201.99px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-7 {
+  margin-top: -499px;
+  width: 279.89px;
+  height: 201.99px;
+}
+
+.desktop .work-PM-to {
+  position: absolute;
+  top: 24px;
+  left: 26px;
+  width: 224px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #a65ebf;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-3 {
+  position: absolute;
+  top: 370px;
+  left: 17px;
+  width: 282px;
+  height: 196px;
+}
+
+.desktop .rectangle-8 {
+  left: 0;
+  width: 280px;
+  height: 196px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group-3 {
+  left: 1px;
+  width: 280px;
+  height: 196px;
+  gap: 1387.7px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-9 {
+  width: 7.16px;
+  height: 196.17px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-10 {
+  margin-top: -499px;
+  width: 279.89px;
+  height: 196.17px;
+}
+
+.desktop .homework-PM-to {
+  position: absolute;
+  top: 23px;
+  left: 26px;
+  width: 224px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #9e4343;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-2 {
+  position: relative;
+  width: 169.38px;
+  height: 592px;
+  margin-top: -41.5px;
+  margin-bottom: -41.5px;
+  background-color: #ffe5ca;
+  border-radius: 15px;
+  box-shadow: -8px 8px 0px #0000001a;
+  filter: blur(0.95px);
+  opacity: 0.71;
+}
+
+.desktop .calander-event-4 {
+  position: absolute;
+  top: 20px;
+  left: 9px;
+  width: 152px;
+  height: 127px;
+}
+
+.desktop .rectangle-11 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 149px;
+  height: 127px;
+}
+
+.desktop .mask-group-4 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 150px;
+  height: 127px;
+  display: flex;
+  gap: 1260.9px;
+}
+
+.desktop .rectangle-12 {
+  width: 3.83px;
+  height: 127.22px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-13 {
+  margin-top: -499px;
+  width: 149.73px;
+  height: 127.22px;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  width: 127px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f8893;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-5 {
+  position: absolute;
+  top: 158px;
+  left: 9px;
+  width: 152px;
+  height: 202px;
+}
+
+.desktop .rectangle-14 {
+  left: 0;
+  width: 150px;
+  height: 202px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group-5 {
+  left: 1px;
+  width: 150px;
+  height: 202px;
+  gap: 1260.9px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-15 {
+  margin-top: 0;
+  width: 3.83px;
+  height: 201.99px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-16 {
+  margin-top: -499px;
+  width: 149.73px;
+  height: 201.99px;
+}
+
+.desktop .work-PM-to-2 {
+  position: absolute;
+  top: 24px;
+  left: 14px;
+  width: 120px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #a65ebf;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-6 {
+  position: absolute;
+  top: 370px;
+  left: 9px;
+  width: 152px;
+  height: 196px;
+}
+
+.desktop .rectangle-17 {
+  left: 0;
+  width: 150px;
+  height: 196px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group-6 {
+  left: 1px;
+  width: 150px;
+  height: 196px;
+  gap: 1260.9px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-18 {
+  width: 3.83px;
+  height: 196.17px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-19 {
+  margin-top: -499px;
+  width: 149.73px;
+  height: 196.17px;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 23px;
+  left: 14px;
+  width: 120px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #9e4343;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-7 {
+  position: absolute;
+  top: 20px;
+  left: 9px;
+  width: 152px;
+  height: 219px;
+}
+
+.desktop .rectangle-20 {
+  left: 1px;
+  width: 149px;
+  height: 219px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .mask-group-7 {
+  left: 0;
+  width: 150px;
+  height: 219px;
+  gap: 1260.9px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.desktop .rectangle-21 {
+  width: 3.83px;
+  height: 218.54px;
+  margin-left: 0;
+}
+
+.desktop .rectangle-22 {
+  margin-top: -499px;
+  width: 149.73px;
+  height: 218.54px;
+}
+
+.desktop .class-AM-to-2 {
+  top: 18px;
+  left: 14px;
+  width: 127px;
+  position: absolute;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f8893;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .calander-event-8 {
+  position: absolute;
+  top: 253px;
+  left: 12px;
+  width: 152px;
+  height: 196px;
+}
+
+.desktop .calander-event-9 {
+  position: absolute;
+  top: 158px;
+  left: 9px;
+  width: 152px;
+  height: 196px;
+}
+
+.desktop .calander-event-10 {
+  position: relative;
+  top: 20px;
+  left: 9px;
+  width: 152px;
+  height: 196px;
+}
+
+.desktop .image {
+  position: absolute;
+  top: 829px;
+  left: 70px;
+  width: 212px;
+  height: 195px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 881px;
+  left: 84px;
+  width: 184px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .hello-today-is {
+  position: absolute;
+  top: 63px;
+  left: 403px;
+  width: 650px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 230px;
+  left: 31px;
+  width: 114px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 230px;
+  left: 275px;
+  width: 135px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 230px;
+  left: 540px;
+  width: 135px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: 230px;
+  left: 698px;
+  width: 174px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 230px;
+  left: 883px;
+  width: 174px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  top: 230px;
+  left: 1055px;
+  width: 174px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  top: 230px;
+  left: 1234px;
+  width: 174px;
+  filter: blur(0.95px);
+  opacity: 0.71;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
