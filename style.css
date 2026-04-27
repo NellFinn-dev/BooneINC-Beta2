@@ -13,7 +13,7 @@ body {
 }
 
 /* header */
-.app-header {
+header {
     background-color: #333;
     color: white;
     gap: 50px;
@@ -30,7 +30,7 @@ body {
     text-decoration: none;
 }
 
-.app-header .nav-lnk:hover {
+header .nav-lnk:hover {
     color: #336aff;
     transition: 0.3s ease-in-out;
 }
@@ -139,7 +139,7 @@ main {
 }
 
 /* Footer */
-.app-footer {
+footer {
     background: #333;
     color: #ccc;
     text-align: start;
