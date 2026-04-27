@@ -1,188 +1,27 @@
-box {
- position: relative;
- width: 1440px;
- height: 1024px;
-}
-.box .group {
- position: absolute;
- top: 0;
- left: 0;
- width: 1444px;
- height: 1024px;
-}
-.box .rectangle {
- position: absolute;
- top: 0;
- left: 0;
- width: 1440px;
- height: 1024px;
- background-color: #d9d9d9;
-}
-.box .div {
- position: absolute;
- top: 130px;
- left: 621px;
- width: 745px;
- height: 144px;
- background-color: #f6c4a0;
- border-radius: 10px;
-}
-.box .text-wrapper {
- position: absolute;
- top: 130px;
- right: 56px;
- width: 789px;
- height: 144px;
- display: flex;
- align-items: center;
- justify-content: center;
- font-family: "JejuGothic-Regular", Helvetica;
- font-weight: 400;
- color: #000000;
- font-size: 75px;
- text-align: center;
- letter-spacing: 0;
- line-height: normal;
-}
-.box .group-2 {
- position: absolute;
- top: 130px;
- left: 52px;
- width: 496px;
-height: 764px;
- background-color: #ffbc8cbf;
- border-radius: 10px;
- box-shadow: 0px 4px 4px #00000040;
-}
-.box .text-wrapper-2 {
- position: absolute;
- top: 16px;
- left: 19px;
- width: 455px;
- -webkit-text-stroke: 1px #000000;
- font-family: "JejuGothic-Regular", Helvetica;
- font-weight: 400;
- color: #000000;
- font-size: 64px;
- letter-spacing: 0;
- line-height: normal;
- white-space: nowrap;
-}
-.box .ellipse {
- position: absolute;
- top: 288px;
- left: 83px;
- width: 25px;
- height: 25px;
- background-color: #000000;
- border-radius: 12.5px;
-}
-.box .text-wrapper-3 {
- position: absolute;
- top: 280px;
- left: 132px;
- height: 41px;
- display: flex;
- align-items: center;
- justify-content: center;
- font-family: "JejuGothic-Regular", Helvetica;
- font-weight: 400;
- color: #000000;
- font-size: 38px;
- text-align: center;
- letter-spacing: 0;
- line-height: normal;
- white-space: nowrap;
-}
-/* Original CSS should be injected above */
-.box .tasks-list {
- margin: 0;
- padding: 0;
- list-style: none;
- position: absolute;
- top: 158px;
- left: 31px;
-}
-.box .task-item {
- position: relative;
- margin-bottom: 60px;
- height: 60px;
-}
-.box .task-item .ellipse {
- position: absolute;
- top: 0;
- left: 0;
-}
-.box .task-item .text-wrapper-3 {
- position: absolute;
- top: 0;
- left: 49px;
-}
-.navbar {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
- height: 60px;
- background-color: #f6c4a0;
- display: flex;
- align-items: center;
- padding: 0 20px;
- z-index: 10;
-}
-.navbar .logo {
- font-size: 24px;
- font-weight: bold;
- color: #000;
-}
-.navbar .nav-lnk {
- margin-left: 20px;
- text-decoration: none;
- color: #000;
-}
-.footerbar {
- position: fixed;
- bottom: 0;
- left: 0;
- width: 100%;
- height: 60px;
- background-color: #ffbc8cbf;
- display: flex;
- align-items: center;
- justify-content: center;
- z-index: 10;
-}
-.footer-container {
- display: flex;
- gap: 20px;
-}
-.footertext {
- margin: 0;
- font-size: 14px;
- color: #000;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-.navbar {
+body {
+    background-color: #f0f2f5;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header */
+.app-header {
+    background-color: #333;
+    color: white;
     gap: 50px;
+    padding: 1.5rem;
+    text-align: start;
     align-items: center;
-    background-color: #102027;
-    padding: 15px 30px;
+    display: flex;
 }
-
-.logo {
-    color:#ffffff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navbartext {
-    color:#ffffff;
-    font-size: 12px;
-    font-weight: bold;
-}
-
 
 .nav-lnk {
     display: flex;
@@ -191,23 +30,118 @@ height: 764px;
     text-decoration: none;
 }
 
-.navbar .nav-lnk:hover {
-    color: #ff5722;
+.app-header .nav-lnk:hover {
+    color: #336aff;
     transition: 0.3s ease-in-out;
 }
 
-.footerbar {
+/* layout */
+main {
+    flex: 1;
     display: flex;
-    justify-content: flex-start;
-    gap: 50px;
+    justify-content: center;
     align-items: center;
-    background-color: #102027;
-    padding: 15px 30px;
+    padding: 2rem;
+    background-color: #4aa0f1;
 }
 
-.footer-container {
+.content-wrapper {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.glass-card {
+    background: rgb(255, 217, 93);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.clock-container {
+    text-align: center;
+}
+
+#time-display {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#date-display {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.task-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.date-time-group {
+    display: flex;
+    gap: 10px;
+}
+
+#task-input, #date-input, #time-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+#task-input { flex: 2; }
+#date-input, #time-input { flex: 1; font-size: 0.8rem; }
+
+#add-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#task-list { list-style: none; }
+
+.task-item {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 30px;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+}
+
+.task-details { display: flex; flex-direction: column; }
+.due-date { font-size: 0.75rem; color: #777; margin-top: 3px; }
+
+.delete-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.app-footer {
+    background: #333;
+    color: #ccc;
+    text-align: start;
+    padding: 1rem;
 }
