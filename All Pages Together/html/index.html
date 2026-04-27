@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta charset="utf-8" />
-<title>Today’s Tasks</title>
-<link rel="stylesheet" href="../css/globalsMAIN.css" />
-<link rel="stylesheet" href="../css/styleMAIN.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boone INC Dashboard</title>
+    <link rel="stylesheet" href="../css/indexStyle.css">
 </head>
 <body>
-  <nav class ="navbar"> 
 
-        <div class="logo"> Boone INC </div>
-            <a href="../html/index.html" class="nav-lnk"> Main </a>
-            <a href="../html/Weekly.html" class="nav-lnk"> Weekly Planner </a>
-            <a href="../html/ToDo.html" class="nav-lnk"> To Do List </a>
- </nav>
+    <header>
+            <h1>Boone INC</h1>
+            <a href= "../html/index.html" button class="demo-btn">Main</a>
+            <a href= "../html/weekly.html" button class="demo-btn">Weekly Planner</a>
+            <a href= "../html/tasklist.html" button class="demo-btn">To Do List</a>
+        </header>
 
-<main class="box">
-<section class="group" aria-labelledby="page-title">
-<div class="rectangle" aria-hidden="true"></div>
-<header class="div" aria-hidden="true"></header>
-<h1 class="text-wrapper" id="page-title">Tuesday, April 20, 2026</h1>
-<section class="group-2" aria-labelledby="tasks-title">
-<div class="rectangle-2" aria-hidden="true"></div>
-<h2 class="text-wrapper-2" id="tasks-title">Today’s Tasks</h2>
-<ul class="tasks-list" aria-label="Task list">
-<li class="task-item">
-<span class="ellipse" aria-hidden="true"></span>
-<span class="text-wrapper-3">Task 1</span>
-</li>
-<li class="task-item">
-<span class="ellipse" aria-hidden="true"></span>
-<span class="text-wrapper-3">Task 2</span>
-</li>
-<li class="task-item">
-<span class="ellipse" aria-hidden="true"></span>
-<span class="text-wrapper-3">Task 3</span>
-</li>
-</ul>
-</section>
-</section>
-</main>
-<footer class="footerbar">
-    <div class="footer-container">
-        <p class="footertext"> @Copyright 2026</p>
-        <p class="footertext"> Team Beta 2 </p>
-        <p class="footertext"> BOONE INC </p>
-        <p class="footertext"> Birt Nolan and Chidi </p>
-    </div>
-</footer>
+    <main>
+        <div class="content-wrapper">
+            
+            <div class="glass-card clock-container">
+                <h1 id="time-display">00:00:00</h1>
+                <p id="date-display">Loading date...</p>
+            </div>
+
+            <div class="glass-card task-container">
+                <h2>My Tasks</h2>
+                <div class="input-container">
+                    <input type="text" id="task-input" placeholder="What needs to be done?">
+                    <div class="date-time-group">
+                        <input type="date" id="date-input">
+                        <input type="time" id="time-input">
+                        <button id="add-btn">Add</button>
+                    </div>
+                </div>
+                <ul id="task-list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2026 Boone INC. All rights reserved.</p>
+           <p class="navbartext"> Team Beta 2 </p>
+                <p class="navbartext"> Birt Nolan and Chidi </p>
+    </footer>
+
+    <script src="../Javascript/Javascript.js"></script>
 </body>
 </html>
