@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffedde;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header */
+header {
+    background-color: #3b90ff;
+    color: white;
+    gap: 50px;
+    padding: 24px;
+    text-align: start;
+    align-items: center;
+    display: flex;
+}
+
+.demo-btn {
+
+    background: #529dff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: #181818 0px 2.5px 5px;
+    text-decoration: none;
+
+}
+
+.demo-btn:active {
+    transform: translateY(0);
+    background: #ff933a;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+
+/* layout */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #f5ffba;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.glass-card {
+    background: #ffaa3a;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.clock-container {
+    text-align: center;
+}
+
+#time-display {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+#date-display {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.task-container h2 {
+    margin-bottom: 24px;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.date-time-group {
+    display: flex;
+    gap: 10px;
+}
+
+#task-input, #date-input, #time-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+#task-input { flex: 2; }
+#date-input, #time-input { flex: 1; font-size: 0.8rem; }
+
+#add-btn {
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#task-list { list-style: none; }
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+}
+
+.task-details { display: flex; flex-direction: column; }
+.due-date { font-size: 0.75rem; color: #777; margin-top: 3px; }
+
+.delete-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #3b90ff;
+    color: #ffffff;
+    text-align: start;
+    padding: 16px;
+}

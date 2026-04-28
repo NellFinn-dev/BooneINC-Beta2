@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boone INC Dashboard</title>
+    <link rel="stylesheet" href="css/indexStyle.css">
+</head>
+<body>
+
+    <header>
+            <h1>Boone INC</h1>
+            <a href= "index.html" button class="demo-btn">Main</a>
+            <a href= "html/Weekly.html" button class="demo-btn">Weekly Planner</a>
+            <a href= "html/tasklist.html" button class="demo-btn">To Do List</a>
+        </header>
+
+    <main>
+        <div class="content-wrapper">
+            
+            <div class="glass-card clock-container">
+                <h1 id="time-display">00:00:00</h1>
+                <p id="date-display">Loading date...</p>
+            </div>
+
+            <div class="glass-card task-container">
+                <h2>My Tasks</h2>
+                <div class="input-container">
+                    <input type="text" id="task-input" placeholder="What needs to be done?">
+                    <div class="date-time-group">
+                        <input type="date" id="date-input">
+                        <input type="time" id="time-input">
+                        <button id="add-btn">Add</button>
+                    </div>
+                </div>
+                <ul id="task-list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2026 Boone INC. All rights reserved.</p>
+           <p class="navbartext"> Team Beta 2 </p>
+                <p class="navbartext"> Birt Nolan and Chidi </p>
+    </footer>
+
+    <script src="../Javascript/Javascript.js"></script>
+</body>
+</html>

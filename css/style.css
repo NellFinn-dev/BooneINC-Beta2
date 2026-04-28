@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ffd39e;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 140px; /* moved down so it no longer overlaps header */
+    color: #261824;
+}
+
+/* Layout of the 3 columns */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+/* Priority boxes */
+main > section {
+    width: 320px;
+    min-height: 520px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    background: rgb(255, 254, 172);
+    box-shadow: 0 4px 4px #0003;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+main > section:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 14px #0004;
+}
+
+/* Column header colors */
+section:nth-of-type(1) h2 { color: #236261; }
+section:nth-of-type(2) h2 { color: #233e76; }
+section:nth-of-type(3) h2 { color: #312283; }
+
+section h2 {
+    font-size: 2.3rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* Task rows */
+li {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    padding: 8px 6px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+li:hover {
+    background-color: rgba(0,0,0,0.05);
+    transform: translateX(4px);
+}
+
+li span {
+    margin-right: 40px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    margin-right: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+input[type="checkbox"]:hover {
+    transform: scale(1.15);
+}
+
+/* Time */
+time {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: color 0.2s ease;
+}
+
+li:hover time {
+    color: #000;
+}
+
+/* Cat image */
+.cat-image {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    width: 180px;
+    image-rendering: pixelated;
+    transition: transform 0.25s ease;
+    z-index: 10;
+}
+
+.cat-image:hover {
+    transform: scale(1.08);
+}
+
+/* HEADER — CLEANED + FIXED */
+header {
+    background-color: #3b90ff;
+    color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* pushes nav to right */
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #3b90ff;
+    color: #ffffff;
+    text-align: start;
+    padding: 16px;
+}
+
+/* Buttons */
+.demo-btn {
+    background: #529dff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: #181818 0px 2.5px 5px;
+    text-decoration: none;
+}
+
+.demo-btn:active {
+    transform: translateY(0);
+    background: #ffca3a;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+/* Task buttons */
+#add-btn {
+    background: #ffffff;
+    color: #ffc320;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
